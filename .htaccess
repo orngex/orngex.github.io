@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^orngex.com$
+RewriteRule ^(.*) http://www.orngex.com/$1  [QSA,L,R=301]
